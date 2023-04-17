@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "1-connect-to-db"
+		},
+		{
+			"path": "2-model-definition-crud"
+		}
+	],
+	"settings": {}
+}
