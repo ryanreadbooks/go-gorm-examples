@@ -3,4 +3,5 @@ go 1.19
 use (
 	./1-connect-to-db
 	./2-model-definition-crud
+	./3-associations
 )

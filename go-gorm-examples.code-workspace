@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "2-model-definition-crud"
+		},
+		{
+			"path": "3-associations"
 		}
 	],
 	"settings": {}
