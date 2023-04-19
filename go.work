@@ -4,4 +4,5 @@ use (
 	./1-connect-to-db
 	./2-model-definition-crud
 	./3-associations
+	./4-custom-data-type
 )

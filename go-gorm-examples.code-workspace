@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "3-associations"
+		},
+		{
+			"path": "4-custom-data-type"
 		}
 	],
 	"settings": {}
