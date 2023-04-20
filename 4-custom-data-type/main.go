@@ -36,12 +36,15 @@ func (*Person) TableName() string {
 
 // 实现sql.Scanner接口, 实现一个Scan方法
 func (f *FullName) Scan(value interface{}) error {
-	bytes, ok := value.([]byte)
+	bytesValue, ok := value.([]byte)
 	if !ok {
 		return fmt.Errorf("failed to convert %v to []byte", value)
 	}
 	// bytes的内容解析后赋值给f
-	fmt.Println("bytes=", string(bytes))
+	r := bytes.Split(bytesValue, []byte(" "))
+	f.FirstName = string(r[0])
+	f.LastName = string(r[1])
+	fmt.Println("bytes=", string(bytesValue))
 	// 这一部分如何实现就是根据每个自定义类型的需求而有所不同
 	return nil
 }
