@@ -17,6 +17,12 @@
 		},
 		{
 			"path": "5-subquery"
+		},
+		{
+			"path": "6-transaction"
+		},
+		{
+			"path": "7-hook"
 		}
 	],
 	"settings": {}

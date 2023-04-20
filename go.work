@@ -6,4 +6,6 @@ use (
 	./3-associations
 	./4-custom-data-type
 	./5-subquery
+	./6-transaction
+	./7-hook
 )
